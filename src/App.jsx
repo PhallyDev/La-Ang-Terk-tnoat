@@ -115,7 +115,7 @@ function Hero() {
           </div>
           <div className="hero-note">
             <span className="note-line" />
-            រក្សាទុកដោយក្ដីស្រឡាញ់ ធ្វើជូនដោយចិត្ត
+           
           </div>
         </div>
 
@@ -124,9 +124,9 @@ function Hero() {
             <img
               className="hero-image"
               src={business.heroImage}
-              alt="រូបភាពបង្ហាញជំនួស សូមដាក់រូបថតពិតរបស់អាជីវកម្មនៅទីនេះ"
+              alt="រូបភាព"
             />
-            <div className="hero-image-caption">
+            {/* <div className="hero-image-caption">
               <span className="caption-icon">
                 <ImageIcon size={17} aria-hidden="true" />
               </span>
@@ -134,11 +134,11 @@ function Hero() {
                 <strong>ពេលវេលាដ៏កក់ក្តៅ</strong>
                 <small>បន្ថែមរូបថតហាងរបស់អ្នក</small>
               </span>
-            </div>
+            </div> */}
           </div>
           <span className="decor decor-one" aria-hidden="true" />
           <span className="decor decor-two" aria-hidden="true" />
-          <span className="hero-side-note">ធ្វើដោយក្តីស្រឡាញ់</span>
+       {  /* <span className="hero-side-note">ធ្វើដោយក្តីស្រឡាញ់</span>*/}
         </div>
       </div>
       <div className="hero-bottom" aria-hidden="true" />
@@ -152,8 +152,8 @@ function ProductGallery({ onSelectProduct }) {
       <div className="container">
         <div className="section-heading">
           <span className="eyebrow">ជ្រើសរើសសម្រាប់អ្នក</span>
-          <h2>មុខម្ហូប និងផលិតផលរបស់យើង</h2>
-          <p>សូមទស្សនារូបថតមុខម្ហូប និងផលិតផលពីហាងយើងខ្ញុំ។</p>
+          <h2>ទឹកត្នោតជូរ/ផ្អែមនិងគ្រឿងក្លែម</h2>
+          {/* <p>សូមទស្សនារូបថតមុខម្ហូប និងផលិតផលពីហាងយើងខ្ញុំ។</p> */}
         </div>
 
         {business.products.length > 0 ? (
@@ -220,7 +220,7 @@ function LocationSection() {
             មើលទីតាំងលើផែនទី
           </a>
         </div>
-        <div className="map-illustration" aria-hidden="true">
+        {/* <div className="map-illustration" aria-hidden="true">
           <div className="map-road map-road-one" />
           <div className="map-road map-road-two" />
           <span className="map-label map-label-one">ផ្លូវ</span>
@@ -229,7 +229,7 @@ function LocationSection() {
             <MapPin size={23} fill="currentColor" />
           </span>
           <span className="map-caption">បន្ថែមទីតាំងពិតរបស់អ្នក</span>
-        </div>
+        </div> */}
       </div>
     </section>
   );
@@ -301,7 +301,7 @@ function Footer() {
               )}
               <span className="brand-name">{business.name}</span>
             </a>
-            <p>ដោយក្តីស្រឡាញ់ពីគ្រួសារយើងខ្ញុំជូនដល់អ្នក។</p>
+          {/*  <p>ដោយក្តីស្រឡាញ់ពីគ្រួសារយើងខ្ញុំជូនដល់អ្នក។</p>*/}
           </div>
           <nav className="footer-nav" aria-label="តំណភ្ជាប់បាតទំព័រ">
             {navigation.map((item) => (
