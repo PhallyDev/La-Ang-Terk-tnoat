@@ -341,7 +341,7 @@ function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          <span>© {new Date().getFullYear()} {business.name}។ រក្សាសិទ្ធិគ្រប់យ៉ាង។</span>
+          
           <span className="developer-credit">
             បង្កើតដោយអ្នកអភិវឌ្ឍន៍{" "}
             {business.portfolioUrl ? (
@@ -356,6 +356,7 @@ function Footer() {
               <span>Phally</span>
             )}
           </span>
+          <span>© {new Date().getFullYear()} {business.name}។ រក្សាសិទ្ធិគ្រប់យ៉ាង។</span>
           <a href="#home">ត្រឡប់ទៅផ្នែកខាងលើ ↑</a>
         </div>
       </div>
