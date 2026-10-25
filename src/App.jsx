@@ -342,6 +342,20 @@ function Footer() {
         </div>
         <div className="footer-bottom">
           <span>© {new Date().getFullYear()} {business.name}។ រក្សាសិទ្ធិគ្រប់យ៉ាង។</span>
+          <span className="developer-credit">
+            បង្កើតដោយអ្នកអភិវឌ្ឍន៍{" "}
+            {business.portfolioUrl ? (
+              <a
+                href={business.portfolioUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Phally
+              </a>
+            ) : (
+              <span>Phally</span>
+            )}
+          </span>
           <a href="#home">ត្រឡប់ទៅផ្នែកខាងលើ ↑</a>
         </div>
       </div>

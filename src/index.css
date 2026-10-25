@@ -810,6 +810,8 @@ a:focus-visible {
 
 .footer-bottom {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
   gap: 15px;
   padding-top: 17px;
@@ -820,6 +822,20 @@ a:focus-visible {
 
 .footer-bottom a {
   color: #e3d1aa;
+}
+
+.developer-credit {
+  color: #bfcac1;
+}
+
+.developer-credit a {
+  color: #e3d1aa;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.developer-credit a:hover {
+  color: #f6f5ed;
 }
 
 .lightbox {
