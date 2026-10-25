@@ -1166,8 +1166,8 @@ a:focus-visible {
   }
 
   .footer-bottom {
-    flex-direction: column;
-    gap: 9px;
+    flex-direction: row;
+    gap: 2px;
     font-size: 9px;
   }
 
